@@ -103,6 +103,9 @@ Do not include any explanations, comments, or markdown formatting.
 
     collect_results()
 
+def myfunc():
+    print("hello world")
+
 if __name__ == '__main__':
     main()
 
