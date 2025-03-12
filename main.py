@@ -6,7 +6,7 @@ from openai import OpenAI
 import re
 
 # Set your OpenAI API Key
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "MY_KEY"
 
 def get_llm_generated_code(prompt):
     client = OpenAI(api_key=OPENAI_API_KEY)
